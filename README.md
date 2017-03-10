@@ -1,2 +1,1 @@
-# dockertemplate
-Docker Template for Unraid docker
+# Nothing to see here, this is crawled automatically by internal services.
