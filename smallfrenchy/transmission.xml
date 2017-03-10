@@ -63,7 +63,7 @@
   </Data>
 <WebUI>http://[IP]:[PORT:9091]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission-icon.png</Icon>
+  <Icon>https://github.com/smallfrenchy/dockertemplate/blob/master/smallfrenchy/img/transmission-icon.png</Icon>
 <DonateText>Donations</DonateText>
 <BaseImage>ubuntu:16.04</BaseImage>
 </Container>
