@@ -21,12 +21,8 @@
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
+      <Name>TRANSMISSION_PASS</Name>
+      <Value>password</Value>
     </Variable>
   </Environment>
   <Networking>
@@ -63,7 +59,6 @@
   </Data>
 <WebUI>http://[IP]:[PORT:9091]/</WebUI>
   <Banner></Banner>
-  <Icon>https://github.com/smallfrenchy/dockertemplate/blob/master/smallfrenchy/img/transmission-icon.png</Icon>
-<DonateText>Donations</DonateText>
+  <Icon>https://github.com/smallfrenchy/dockertemplate/blob/master/smallfrenchy/img/transmission-icon.png?raw=true</Icon>
 <BaseImage>ubuntu:16.04</BaseImage>
 </Container>
