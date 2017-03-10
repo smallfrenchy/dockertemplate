@@ -5,8 +5,8 @@
   <Date>2017-03-10</Date>
   <Changes>
   </Changes>
-  <Name>transmission</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=44049.0</Support>
+  <Name>transmission-freeleech</Name>
+  <Support></Support>
   <Description>Transmission freeleech mod[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all transmission config files [br]
@@ -16,7 +16,7 @@
   <Project>http://www.transmissionbt.com/</Project>
   <Overview>Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.</Overview>
   <Registry>https://hub.docker.com/r/linuxserver/transmission/</Registry>
-  <Repository>linuxserver/transmission</Repository>
+  <Repository>smallfrenchy/transmission-leechmod</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
