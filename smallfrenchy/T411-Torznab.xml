@@ -12,9 +12,9 @@
   [b]Variable USERNAME[/b] : your T411 login [br]
   [b]Variable PASSWORD[/b] : your T411 password[br]
   </Description>
-  <Project>http://www.transmissionbt.com/</Project>
+  <Project>https://github.com/xataz/T411-Torznab/</Project>
   <Overview>Torznab proxy for T411 French Private Torrent Tracker.</Overview>
-  <Registry>https://github.com/xataz/T411-Torznab/</Registry>
+  <Registry>https://hub.docker.com/r/smallfrenchy/t411-torznab/</Registry>
   <Repository>xataz/T411-Torznab</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
