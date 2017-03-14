@@ -1,1 +1,48 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Downloaders:</Category>
+  <Date>2017-03-10</Date>
+  <Changes>
+  </Changes>
+  <Name>T411-Torznab</Name>
+  <Support></Support>
+  <Description>T411-Torznab[br]
+  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]Variable USERNAME[/b] : your T411 login [br]
+  [b]Variable PASSWORD[/b] : your T411 password[br]
+  </Description>
+  <Project>http://www.transmissionbt.com/</Project>
+  <Overview>Torznab proxy for T411 French Private Torrent Tracker.</Overview>
+  <Registry>https://github.com/xataz/T411-Torznab/</Registry>
+  <Repository>xataz/T411-Torznab</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>USERNAME</Name>
+      <Value>t411USER</Value>
+    </Variable>
+    <Variable>
+      <Name>PASSWORD</Name>
+      <Value>t411PASSW</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9876</HostPort>
+        <ContainerPort>9876</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+</Publish>
+ </Networking>
+  <Data>
+    
+  </Data>
+<WebUI>http://[IP]:[PORT:9876]/</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+<BaseImage></BaseImage>
+</Container>
