@@ -43,6 +43,6 @@
   </Data>
 <WebUI>http://[IP]:[PORT:9876]/</WebUI>
   <Banner></Banner>
-  <Icon></Icon>
+  <Icon>https://github.com/smallfrenchy/dockertemplate/blob/master/smallfrenchy/img/t411-icon.png?raw=true</Icon>
 <BaseImage></BaseImage>
 </Container>
