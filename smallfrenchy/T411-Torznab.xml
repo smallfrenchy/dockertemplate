@@ -15,7 +15,7 @@
   <Project>https://github.com/xataz/T411-Torznab/</Project>
   <Overview>Torznab proxy for T411 French Private Torrent Tracker.</Overview>
   <Registry>https://hub.docker.com/r/smallfrenchy/t411-torznab/</Registry>
-  <Repository>xataz/T411-Torznab</Repository>
+  <Repository>smallfrenchy/t411-torznab</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
