@@ -10,21 +10,17 @@
   <Description>OpenVPN with IPVanish conf + Transmission freeleech mod + Sabnzbd[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all transmission config files [br]
-  [b]/downloads[/b] : Point to Downloads location[br]
-  [b]/watch[/b] : Point to watch folder[br]
+  [b]/downloads[/b] : Point to transmission Downloads location[br]
+  [b]/watch[/b] : Point to transmission watch folder[br]
   </Description>
-  <Project>http://www.transmissionbt.com/</Project>
-  <Overview>Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.</Overview>
-  <Registry>https://hub.docker.com/r/smallfrenchy/transmission-leechmod/</Registry>
+  <Project></Project>
+  <Overview></Overview>
+  <Registry>https://hub.docker.com/r/smallfrenchy/downloadmachine/</Registry>
   <Repository>smallfrenchy/downloadmachine</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <ExtraParams>--cap-add=NET_ADMIN --device=/dev/net/tun --dns=8.8.8.8</ExtraParams>
   <Environment>
-    <Variable>
-      <Name>TRANSMISSION_PASS</Name>
-      <Value>password</Value>
-    </Variable>
     <Variable>
       <Name>OPENVPN_USER</Name>
       <Value>User</Value>
