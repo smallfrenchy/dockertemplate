@@ -24,6 +24,14 @@
       <Name>TRANSMISSION_PASS</Name>
       <Value>password</Value>
     </Variable>
+    <Variable>
+      <Name>OPENVPN_USER</Name>
+      <Value>User</Value>
+    </Variable>
+    <Variable>
+      <Name>OPENVPN_PASSWORD</Name>
+      <Value>Password</Value>
+    </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
