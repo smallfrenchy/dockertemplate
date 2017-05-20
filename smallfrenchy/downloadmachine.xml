@@ -19,6 +19,7 @@
   <Repository>smallfrenchy/downloadmachine</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <ExtraParams>--cap-add=NET_ADMIN --device=/dev/net/tun --dns=8.8.8.8</ExtraParams>
   <Environment>
     <Variable>
       <Name>TRANSMISSION_PASS</Name>
