@@ -38,6 +38,11 @@
         <ContainerPort>9091</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
      <Port>
         <HostPort>51413</HostPort>
         <ContainerPort>51413</ContainerPort>
@@ -59,6 +64,11 @@
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/watch</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nzb</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
