@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>false</Beta>
+  <Category>HomeAutomation: Network:Management</Category>
+  <Date>2017-02-11</Date>
+  <Changes>
+  </Changes>
+  <Name>HttpBridge</Name>
+  <Support></Support>
+  <Repository>smallfrenchy/httpbridge</Repository>
+  <Project></Project>
+  <Branch>
+  </Branch>
+  <Registry>https://hub.docker.com/r/smallfrenchy/httpbridge/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>A personal HTTP brdige, take some request on the left side and call on the right side</Overview>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Icon></Icon>
+  <Description></Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6032</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+  </Data>
+  <Environment>
+  </Environment>
+  <BaseImage>microsoft/aspnetcore:2.0</BaseImage>
+</Container>
