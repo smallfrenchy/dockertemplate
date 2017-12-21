@@ -12,7 +12,7 @@
   <Registry>https://hub.docker.com/r/smallfrenchy/httpbridge/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Overview>A personal HTTP brdige, take some request on the left side and call on the right side</Overview>
+  <Overview>A personal HTTP bridge, take some request on the left side and call on the right side</Overview>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <Icon></Icon>
   <Description></Description>
