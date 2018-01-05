@@ -7,8 +7,7 @@
   </Changes>
   <Name>sarah-server-nodejs</Name>
   <Support></Support>
-  <Description>S.A.R.A.H. is an OpenSource client/server framework to control Internet of Things using Voice, Gesture, Face, QRCode recognition. It is heavily bound to Kinect v1 and v2 SDK.[br]
-  This project contains NodeJS Server for SARAH. And will communicate with C# Client for SARAH.[br]
+  <Description>S.A.R.A.H. is an OpenSource client/server framework to control Internet of Things using Voice, Gesture, Face, QRCode recognition.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   </Description>
   <Project>http://www.transmissionbt.com/</Project>
@@ -36,8 +35,8 @@
         <ContainerPort>8888</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
-</Publish>
- </Networking>
+    </Publish>
+  </Networking>
   <Data>
     <Volume>
       <HostDir></HostDir>
@@ -45,8 +44,8 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner></Banner>
   <Icon>https://github.com/smallfrenchy/dockertemplate/blob/master/smallfrenchy/img/transmission-icon.png?raw=true</Icon>
-<BaseImage></BaseImage>
+  <BaseImage>cusspvz/node</BaseImage>
 </Container>
