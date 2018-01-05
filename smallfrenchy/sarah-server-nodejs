@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Beta>False</Beta>
-  <Category>Downloaders:</Category>
-  <Date>2017-03-10</Date>
+  <Beta>false</Beta>
+  <Category>HomeAutomation:Network:Management</Category>
+  <Date>2017-02-11</Date>
   <Changes></Changes>
-  <Name>sarah-server-nodejs</Name>
+  <Name>Sarah</Name>
   <Support></Support>
-  <Description>
-    S.A.R.A.H. is an OpenSource client/server framework to control Internet of Things using Voice, Gesture, Face, QRCode recognition.[br]
-    [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  </Description>
-  <Project>http://www.transmissionbt.com/</Project>
-  <Overview>S.A.R.A.H. is an OpenSource client/server framework to control Internet of Things using Voice, Gesture, Face, QRCode recognition. It is heavily bound to Kinect v1 and v2 SDK. This project contains NodeJS Server for SARAH. And will communicate with C# Client for SARAH.</Overview>
-  <Registry>https://hub.docker.com/r/skydiscover/sarah-server-nodejs/</Registry>
   <Repository>skydiscover/sarah-server-nodejs</Repository>
-  <BindTime>true</BindTime>
+  <Project></Project>
+  <Branch></Branch>
+  <Registry>https://hub.docker.com/r/skydiscover/sarah-server-nodejs/</Registry>
+  <Network>bridge</Network>
   <Privileged>false</Privileged>
+  <Overview>A personal HTTP bridge, take some request on the left side and call on the right side</Overview>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Icon></Icon>
+  <Description></Description>
   <Environment>
     <Variable>
       <Name>TZ</Name>
@@ -44,7 +44,4 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT]/</WebUI>
-  <Banner></Banner>
-  <Icon>https://github.com/smallfrenchy/dockertemplate/blob/master/smallfrenchy/img/transmission-icon.png?raw=true</Icon>
 </Container>
